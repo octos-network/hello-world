@@ -6,6 +6,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Test");
+
             Random numberGen = new Random();
 
             int roll = 0;
