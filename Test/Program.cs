@@ -1,25 +1,32 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace Test
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test");
+            List<string> shoppingList = new List<string>();
 
-            Random numberGen = new Random();
+            shoppingList.Add("Half Life 3");
+            shoppingList.Add("Pay Day 3");
+            shoppingList.Add("Dead Island 2");
+            shoppingList.Add("The Edler Scrolls 6");
 
-            int roll = 0;
-            int attempts = 0;
-
-            while(roll != 80) {
-                roll = numberGen.Next(1, 81);
-                Console.WriteLine("You rolled: " + roll);
-                attempts++;
+            for (int i = 0; i < shoppingList.Count; i++)
+            {
+                Console.WriteLine(shoppingList[i]);
             }
 
-            Console.WriteLine("It took you " + attempts + " attempts to roll a eighty");
+            shoppingList.Remove("The Edler Srolls 6");
+            shoppingList.RemoveAt(1);
+
+            Console.WriteLine("---------------");
+
+            for (int i = 0; i < shoppingList.Count; i++)
+            {
+                Console.WriteLine(shoppingList[i]);
+            }
 
             // warten vor den schließen
             Console.ReadKey();

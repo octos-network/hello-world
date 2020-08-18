@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ecKewwGSkolBu04idsf+cBuAQODtne28WNlhD/iHwtMi2zu6kIHBwyl4M72dRnJl4GtyZ0Bn7rmgCjDr2JrETA==",
+  "dgSpecHash": "YO5BE247gjB115T0z+CCAnsQ4xZ4pcx71Z7WxlgoXaha+S9Ps7GQUfIRUjwnneuPvk7G2Pnpl+hLqFMmkNQKrw==",
   "success": true,
-  "projectFilePath": "/Users/ConradBe/Desktop/Test/Test.csproj",
+  "projectFilePath": "/Users/ConradBe/GitHub/hello-world/Test/Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
